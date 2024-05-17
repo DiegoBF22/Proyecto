@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #7C7C7C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform:uppercase;
+    
+}
+
+a {
+    margin-right: 7%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+a img{
+    margin-left: 10%;
+}
+
