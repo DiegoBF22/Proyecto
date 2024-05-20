@@ -5,14 +5,15 @@ import logo from "../../assets/logoDatabase.png";
 
 function cabecera(){
     return(<>
+        
         <header>
-            <a href="" ><img src={logo} alt="logo" height={"100px"} /></a>
-            <a href="">banners</a>
-            <a href="">categories</a>
-            <a href="">characters</a>
-            <a href="">news</a>
-            <a href="">events</a>
-            <a href="">about</a>
+            <a href="/" ><img src={logo} alt="logo" height={"100px"} /></a>
+            <a href="/banners">banners</a>
+            <a href="/categories">categories</a>
+            <a href="/characters">characters</a>
+            <a href="/news">news</a>
+            <a href="/events">events</a>
+            <a href="/about">about</a>
         </header>
 
         {<Outlet />}

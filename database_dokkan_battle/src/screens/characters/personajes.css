@@ -13,17 +13,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    width: 40%;
-    margin: 2%;
-}
-.titulo {
-    background-color: #c0c0c0;
-    color: #000;
-    text-align: center;
-    padding: 10px;
-    font-size: 1.5em;
-    font-weight: bold;
-    margin: -20px -20px 20px -20px;
+    width: 90%;
 }
 .grid {
     text-align: center;
@@ -31,10 +21,21 @@ body {
 .grid img{
     transform: scale(75%);
 }
-.news-list {
-    grid-template-columns: 1fr;
+
+
+.header-container form .encapsular{
+    color: black;
+    background-color: #BCBCBC;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin: -20px -20px 20px -20px;
 }
-.news-list img {
-    width: 100%;
-    margin-top: 5%;
+
+
+
+.header-item{
+    text-align: center;
+    display: block;
+    margin-bottom: 1%;
 }
