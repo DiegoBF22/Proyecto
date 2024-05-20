@@ -18,4 +18,4 @@ Conseguir que se pueda acceder a toda la información de este juego no es un pro
 
 ## Enlaces importantes
 
-> Puedes visitar este `[enlace](https://www.figma.com/design/AHmHulmTDvxvst44m947ur/Dokkan-Battle-Database?node-id=601%3A7&t=BI2UnGOKhrHX7gmC-1)` para ver, más o menos, como tengo pensado que acabe siendo la página.
+> Puedes visitar este [enlace](https://www.figma.com/design/AHmHulmTDvxvst44m947ur/Dokkan-Battle-Database?node-id=601%3A7&t=BI2UnGOKhrHX7gmC-1) para ver, más o menos, como tengo pensado que acabe siendo la página.
