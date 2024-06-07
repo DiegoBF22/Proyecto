@@ -12,7 +12,7 @@ function cabecera(){
             <a href="/categories">categories</a>
             <a href="/characters">characters</a>
             <a href="/news">news</a>
-            <a href="/events">events</a>
+            <a href="/eventType">events</a>
             <a href="/about">about</a>
         </header>
 

@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background-color: #2b2b2b;
+    color: white;
+}
+.container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.section {
+    background-color: #5e5e5e;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 90%;
+}
+.grid {
+    text-align: center;
+}
+.grid img{
+    transform: scale(75%);
+}
+
+
+.header-container form .encapsular{
+    color: black;
+    background-color: #BCBCBC;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+
+
+.header-item{
+    text-align: center;
+    display: block;
+    margin-bottom: 1%;
+}
+
+.grid a{
+    margin: 0;
+}
+
+.grid a img{
+    margin: 0;
+    width: 20%;
+}
+
+@media only screen and (max-width: 1166px) {
+    .header-item h2, input{
+        font-size: 100%;
+    }
+    .grid{
+        display: block;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .grid a img{
+        margin: 0;
+        transform: scale(100%);
+    }
+  }

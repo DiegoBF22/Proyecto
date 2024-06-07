@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: #2b2b2b;
+    color: white;
+}
+.container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.grid {
+    text-align: center;
+}
+
+.AboutGrid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.AboutGrid img{
+    width: 50%;
+}
+
+
+.header-item{
+    text-align: center;
+    display: block;
+    margin-bottom: 1%;
+}
+
+.AboutGrid p{
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 2em;
+    text-align: justify;
+}
+.AboutGrid h3{
+    text-align: center;
+}
+
+
+.AboutGrid a{
+    margin: 0;
+    font-size:medium;
+}

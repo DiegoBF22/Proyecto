@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background-color: #2b2b2b;
+    color: white;
+}
+.container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.section {
+    background-color: #5e5e5e;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 90%;
+}
+.grid {
+    text-align: center;
+}
+.grid img{
+    transform: scale(75%);
+}
+
+
+.header-container form .encapsular{
+    color: black;
+    background-color: #BCBCBC;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+
+
+.header-item{
+    text-align: center;
+    display: block;
+    margin-bottom: 1%;
+}
+
+.banner{
+    background-color: #BCBCBC;
+    display: block;
+}
+
+.grid .texts img{
+    margin: 0;
+    margin-top: 2%;
+    transform: scale(100%);
+}
+.grid .texts{
+    margin: 0;
+    text-align: center;
+}
+
+.EventDetails{
+    color: black;
+    background-color: #BCBCBC;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    box-shadow: 0 0 10px;
+}
+
+.EventDetails h2{
+    padding-top: 2%;
+}
+.tablaDetalles{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #ccc;
+}
+
+.tablaDetalles th{
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}
+.tablaDetalles td {
+    border: 1px solid #888;
+    background-color: #ccc;
+}
+
+.tablaDetalles span {
+    margin-top: 5px;
+    display: block;
+    font-weight: bold;
+}
+
+.medals{
+    list-style: none;
+    text-decoration: underline;
+    padding: 0;
+}
+
+@media only screen and (max-width: 1166px) {
+    .EventDetails{
+        width: 100%;
+    }
+    
+  }

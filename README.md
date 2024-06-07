@@ -16,6 +16,10 @@ Básicamente los usuarios podrán acceder a todos los datos del juego desde el m
 
 Conseguir que se pueda acceder a toda la información de este juego no es un proceso rápido y sencillo, ya que hay muchas cartas, eventos, animaciones, etc… Planeo continuar implementando funciones y expandiendo esta aplicación en un futuro, así que intentaré implementar todas las funciones posibles antes de la fecha de entrega.
 
+## ROADMAP
+
+A través de este apartado iré documentando las futuras funciones de la página, además de añadirles una fecha de implementación prevista
+
 ## Enlaces importantes
 
 > Puedes visitar este [enlace](https://www.figma.com/design/AHmHulmTDvxvst44m947ur/Dokkan-Battle-Database?node-id=601%3A7&t=BI2UnGOKhrHX7gmC-1) para ver, más o menos, como tengo pensado que acabe siendo la página.

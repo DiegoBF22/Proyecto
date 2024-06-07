@@ -10,32 +10,50 @@ body {
 }
 .section {
     background-color: #5e5e5e;
-    padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     width: 90%;
 }
-.grid {
+.CharacterList {
     text-align: center;
 }
-.grid img{
-    transform: scale(75%);
+.CharacterList img{
+    transform: scale(85%);
+    width: 15%;
 }
 
+.CharacterList a{
+    margin: 0;
+}
+.CharacterList a img{
+    margin: 0;
+}
 
-.header-container form .encapsular{
+.CardFilters form .encapsularCard{
     color: black;
     background-color: #BCBCBC;
     display: flex;
     justify-content: center;
     gap: 5%;
-    margin: -20px -20px 20px -20px;
 }
 
 
 
-.header-item{
+.CardFilterItem{
     text-align: center;
     display: block;
     margin-bottom: 1%;
 }
+
+@media only screen and (max-width: 1166px) {
+    .CardFilters form .encapsularCard{
+        display: block;
+    }
+    .CardFilterItem h3{
+        margin: 0;
+    }
+    .CardFilterItem .header-item{
+        margin: auto;
+        font-size: 70%;
+    }
+  }

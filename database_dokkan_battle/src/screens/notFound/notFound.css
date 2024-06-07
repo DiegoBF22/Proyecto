@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.notFound{
+    background-color: #BCBCBC;
+    width: 50%;
+    padding: 2%;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+    color: black;
+    box-shadow: 0 0 15px;
+    border-radius: 30px;
+}

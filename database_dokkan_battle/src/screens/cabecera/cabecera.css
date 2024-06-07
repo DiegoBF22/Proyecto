@@ -27,3 +27,18 @@ a img{
     margin-left: 10%;
 }
 
+
+@media only screen and (max-width: 1166px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    a {
+        margin-right: 0%;
+        margin-bottom: 2%;
+    }
+    
+    a img{
+        margin-left: 0%;
+    }
+  }

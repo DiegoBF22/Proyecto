@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: #2b2b2b;
+    color: white;
+}
+.container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.section {
+    background-color: #5e5e5e;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 90%;
+}
+.Newsgrid {
+    text-align: center;
+}
+
+.Newsgrid a{
+    margin: 2%;
+}
+
+.Newsgrid a img{
+    width: 30%;
+    margin: 2%;
+}
+
+@media only screen and (max-width: 1166px) {
+
+    .Newsgrid{
+        display: block;
+        justify-content: center;
+    }
+    .Newsgrid a img{
+        width: 50%;
+    }
+  }

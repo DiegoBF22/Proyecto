@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    background-color: #2b2b2b;
+    color: white;
+}
+.container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.section {
+    background-color: #5e5e5e;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 90%;
+}
+.charaGrid {
+    text-align: center;
+}
+
+.charaGrid a img{
+    width: 12.48%;
+}
+
+
+.header-container .encapsular{
+    color: black;
+    background-color: #BCBCBC;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.header-container .encapsular2{
+    color: black;
+    background-color: #BCBCBC;
+    display: block;
+    gap: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header-item{
+    text-align: center;
+    display: block;
+}
+
+.header-item2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header-item3{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header-item img{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.header-item2 img{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.header-item3 img{
+    width: 60%;
+}
+.header-item3 a{
+    margin: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.header-item3 a img{
+    margin: 0;
+}
+
+.charaGrid a{
+    margin: 3%;
+}
+
+.charaGrid a img{
+    margin: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+@media only screen and (max-width: 1166px) {
+    .header-item img{
+        width: 100%;
+    }
+    .header-item2 img{
+        width: 20%;
+    }
+  }
